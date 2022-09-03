@@ -2,7 +2,7 @@
 
 namespace CompanyAPI.Migrations
 {
-    public partial class nextmigration : Migration
+    public partial class newone : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -18,7 +18,7 @@ namespace CompanyAPI.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_EmployeeModel", x => x.EmployeeId);
+                    table.PrimaryKey("PK_Employees", x => x.EmployeeId);
                 });
         }
 

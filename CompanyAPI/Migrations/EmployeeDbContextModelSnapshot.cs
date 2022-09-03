@@ -18,7 +18,7 @@ namespace CompanyAPI.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("CompanyAPI.Models.Employees", b =>
+            modelBuilder.Entity("CompanyAPI.Models.EmployeeModel", b =>
                 {
                     b.Property<int>("EmployeeId")
                         .ValueGeneratedOnAdd()

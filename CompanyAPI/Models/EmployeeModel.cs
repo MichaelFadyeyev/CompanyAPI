@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Http;
 
 namespace CompanyAPI.Models
 {
-    public class Employees
+    public class EmployeeModel
     {
         [Key]
         public int EmployeeId { get; set; }
